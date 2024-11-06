@@ -679,11 +679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\Dal.csproj",
+      "projectUniqueName": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\Dal.csproj",
+      "projectPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\Dal.csproj",
       "packagesPath": "C:\\Users\\mcara\\.nuget\\packages\\",
-      "outputPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Data\\obj\\",
+      "outputPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mcara\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -700,11 +700,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj": {
-              "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj"
+            "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Entity.csproj"
             },
-            "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Mapper\\Mapper.csproj": {
-              "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Mapper\\Mapper.csproj"
+            "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\Mapper.csproj": {
+              "projectPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\Mapper.csproj"
             }
           }
         }

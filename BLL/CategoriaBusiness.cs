@@ -10,19 +10,6 @@ namespace BLL
 {
     public class CategoriaBusiness
     {
-        private CategoriaData categoriaData = new CategoriaData();
-
-        public List<Categoria> ObtenerCategoria()
-        {
-            try
-            {
-                return categoriaData.ObtenerCategoria();
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-        }
+        
     }
 }

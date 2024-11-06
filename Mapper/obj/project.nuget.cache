@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sEIG61a4shA=",
+  "dgSpecHash": "lrVtygfDR1Y=",
   "success": true,
-  "projectFilePath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Mapper\\Mapper.csproj",
+  "projectFilePath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mcara\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mcara\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

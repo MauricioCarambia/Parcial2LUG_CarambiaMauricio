@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj",
+      "projectUniqueName": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\Entity.csproj",
+      "projectPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\mcara\\.nuget\\packages\\",
-      "outputPath": "E:\\UAI\\LUG\\Itinerario 12 - repaso 2 parcial\\Repaso2Parcial\\Entity\\obj\\",
+      "outputPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mcara\\AppData\\Roaming\\NuGet\\NuGet.Config",

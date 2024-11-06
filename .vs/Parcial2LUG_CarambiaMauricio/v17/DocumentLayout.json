@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\mapper\\aplicacionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\aplicacionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\entity\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\entity\\aplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\aplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\categoriadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\categoriadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\aplicaciondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\aplicaciondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\bll\\categoriabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\categoriabusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\bll\\aplicacionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\aplicacionbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\mapper\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:34:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AplicacionBusiness.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\AplicacionBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\AplicacionBusiness.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\AplicacionBusiness.cs",
+              "RelativeToolTip": "BLL\\AplicacionBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:33:47.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriaBusiness.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\CategoriaBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\CategoriaBusiness.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\CategoriaBusiness.cs",
+              "RelativeToolTip": "BLL\\CategoriaBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:33:40.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AplicacionData.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\AplicacionData.cs",
+              "RelativeDocumentMoniker": "Data\\AplicacionData.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\AplicacionData.cs",
+              "RelativeToolTip": "Data\\AplicacionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:33:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaData.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\CategoriaData.cs",
+              "RelativeDocumentMoniker": "Data\\CategoriaData.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\CategoriaData.cs",
+              "RelativeToolTip": "Data\\CategoriaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:33:09.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\Connection.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\Connection.cs",
+              "RelativeToolTip": "Data\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:33:05.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aplicacion.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Aplicacion.cs",
+              "RelativeDocumentMoniker": "Entity\\Aplicacion.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Aplicacion.cs",
+              "RelativeToolTip": "Entity\\Aplicacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:32:59.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Categoria.cs",
+              "RelativeDocumentMoniker": "Entity\\Categoria.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Categoria.cs",
+              "RelativeToolTip": "Entity\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:32:54.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AplicacionMapper.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\AplicacionMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\AplicacionMapper.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\AplicacionMapper.cs",
+              "RelativeToolTip": "Mapper\\AplicacionMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:32:48.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriaMapper.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\CategoriaMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\CategoriaMapper.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\CategoriaMapper.cs",
+              "RelativeToolTip": "Mapper\\CategoriaMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:32:38.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:32:26.344Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
