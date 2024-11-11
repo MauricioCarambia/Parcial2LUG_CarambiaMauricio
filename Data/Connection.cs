@@ -11,7 +11,7 @@ namespace Dal
     {
         public static string ConnectionString()
         {
-            return ConfigurationManager.ConnectionStrings["UAIStoreDB"].ConnectionString;
+            return ConfigurationManager.ConnectionStrings["LUGSegundoParcial"].ConnectionString;
         }
     }
 }

@@ -10,3 +10,15 @@ E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Entity\obj\Debug\net8
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Entity\obj\Debug\net8.0\refint\Entity.dll
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Entity\obj\Debug\net8.0\Entity.pdb
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Entity\obj\Debug\net8.0\ref\Entity.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\bin\Debug\net8.0\Entity.deps.json
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\bin\Debug\net8.0\Entity.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\bin\Debug\net8.0\Entity.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.AssemblyInfoInputs.cache
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.AssemblyInfo.cs
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.csproj.CoreCompileInputs.cache
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.sourcelink.json
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\refint\Entity.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\Entity.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Entity\obj\Debug\net8.0\ref\Entity.dll

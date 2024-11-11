@@ -16,3 +16,21 @@ E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Data\obj\Debug\net8.0
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Data\obj\Debug\net8.0\refint\Dal.dll
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Data\obj\Debug\net8.0\Dal.pdb
 E:\UAI\LUG\Itinerario 12 - repaso 2 parcial\Repaso2Parcial\Data\obj\Debug\net8.0\ref\Dal.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Dal.deps.json
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Dal.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Dal.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Entity.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Mapper.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Entity.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\bin\Debug\net8.0\Mapper.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.sourcelink.json
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.csproj.Up2Date
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\refint\Dal.dll
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\Dal.pdb
+E:\UAI\LUG\Parcial2LUG_CarambiaMauricio\Data\obj\Debug\net8.0\ref\Dal.dll
