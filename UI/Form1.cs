@@ -8,7 +8,7 @@ namespace UI
     {
         private EstudianteBusiness estudiantesBusiness = new EstudianteBusiness();
         private CursoBusiness cursoBusiness = new CursoBusiness();
-        private Estudiante estudiante;
+        private Estudiante estudiantes;
         private List<Estudiante> listaEstudiante = new List<Estudiante>();
         public Form1()
         {
@@ -90,14 +90,14 @@ namespace UI
             MostrarCursos();
             MostrarEstudiantes();
             ObtenerCursosModificar();
-            txtPromedio.Text = 0.ToString();
+            txtPromedio.Text = "0";
         }
         private void btnBorrador_Click(object sender, EventArgs e)
         {
             try
             {
                 ObtenerDatos();
-                listaEstudiante.Add(estudiante);
+                listaEstudiante.Add(estudiantes);
                 LimpiarCampos();
             }
             catch (Exception ex)
@@ -111,13 +111,13 @@ namespace UI
         {
             try
             {
-                estudiante = new Estudiante();
-                estudiante.Nombre = txtNombre.Text;
-                estudiante.FechaNacimiento = dtpFecha.Value.Date;
-                estudiante.Promedio = Convert.ToDecimal(txtPromedio.Text);
+                estudiantes = new Estudiante();
+                estudiantes.Nombre = txtNombre.Text;
+                estudiantes.FechaNacimiento = dtpFecha.Value.Date;
+                estudiantes.Promedio = Convert.ToDecimal(txtPromedio.Text);
                 Curso curso = new Curso();
                 curso.IdCurso = Convert.ToInt32(cmbCurso.SelectedValue);
-                estudiante.Curso = curso;
+                estudiantes.Curso = curso;
             }
             catch (Exception ex)
             {
@@ -134,7 +134,6 @@ namespace UI
                 estudiantesBusiness.GuardarEstudiante(listaEstudiante);
                 listaEstudiante = new List<Estudiante>();
                 MostrarEstudiantes();
-                ObtenerCursosModificar();
                 MessageBox.Show("Alumno agregado");
                 LimpiarCampos();
             }
@@ -187,7 +186,7 @@ namespace UI
         private void LimpiarCampos()
         {
             txtNombre.Text = string.Empty;
-            txtPromedio.Text = 0.ToString();
+            txtPromedio.Text = "0";
             dtpFecha.Value = DateTime.Now;
 
         }
@@ -202,10 +201,9 @@ namespace UI
             try
             {
                 ObtenerDatos();
-                estudiantesBusiness.GuardarEstudiantes(estudiante);
-                MessageBox.Show("Estudiante agregado");
+                estudiantesBusiness.GuardarEstudiantes(estudiantes);
                 MostrarEstudiantes();
-                ObtenerCursosModificar();
+                MessageBox.Show("Estudiante agregado");
                 LimpiarCampos();
             }
             catch (Exception ex)
@@ -230,6 +228,7 @@ namespace UI
                         cmbNuevoCurso.SelectedValue = seleccionado.Curso.IdCurso;
                         txtEliminarID.Text = seleccionado.IdEstudiante.ToString();
                     }
+
                 }
             }
             catch (Exception ex)

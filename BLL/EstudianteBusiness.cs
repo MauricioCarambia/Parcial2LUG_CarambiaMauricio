@@ -20,28 +20,7 @@ namespace BLL
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    int edad = DateTime.Now.Year - estudiante.FechaNacimiento.Year;
-                    if (DateTime.Now < estudiante.FechaNacimiento.AddYears(edad))
-                    {
-                        edad--;
-                    }
-
-                    if (edad < 16 || edad > 60)
-                    {
-                        throw new Exception("El estudiante debe tener entre 16 y 60 años.");
-                    }
-                    if (estudiante.Nombre.Length < 3 || string.IsNullOrEmpty(estudiante.Nombre))
-                    {
-                        throw new Exception("El nombre debe tener 3 letras minimo");
-                    }
-                    if (estudiante.Promedio != 0)
-                    {
-                        throw new Exception("El promedio debe ser cero");
-                    }
-                    if (estudiante.Curso == null)
-                    {
-                        throw new Exception("Seleccione un curso");
-                    }
+                    ValidarEstudiante(estudiante);
                     estudianteDao.GuardarEstudiantes(estudiante);
                     trx.Complete();
                 }
@@ -53,37 +32,42 @@ namespace BLL
             }
         }
 
-        public void GuardarEstudiante(List<Estudiante> estudiante)
+        private static void ValidarEstudiante(Estudiante estudiante)
+        {
+            int edad = DateTime.Now.Year - estudiante.FechaNacimiento.Year;
+            if (DateTime.Now < estudiante.FechaNacimiento.AddYears(edad))
+            {
+                edad--;
+            }
+
+            if (edad < 16 || edad > 60)
+            {
+                throw new Exception("El estudiante debe tener entre 16 y 60 años.");
+            }
+            if (estudiante.Nombre.Length < 3 || string.IsNullOrEmpty(estudiante.Nombre))
+            {
+                throw new Exception("El nombre debe tener 3 letras minimo");
+            }
+            if (estudiante.Promedio != 0)
+            {
+                throw new Exception("El promedio debe ser cero");
+            }
+            if (estudiante.Curso == null)
+            {
+                throw new Exception("Seleccione un curso");
+            }
+        }
+
+        public void GuardarEstudiante(List<Estudiante> estudiantes)
         {
             try
             {
                 using (TransactionScope trx = new TransactionScope())
                 {
-                    foreach(Estudiante estudiantes in estudiante)
+                    foreach(Estudiante estudiante in estudiantes)
                     {
-                        int edad = DateTime.Now.Year - estudiantes.FechaNacimiento.Year;
-                        if (DateTime.Now.DayOfYear < estudiantes.FechaNacimiento.DayOfYear)
-                        {
-                            edad--;
-                        }
-
-                        if (edad <= 16 || edad >= 60)
-                        {
-                            throw new Exception("El estudiante debe tener entre 16 y 60 años.");
-                        }
-                        if (estudiantes.Nombre.Length < 3 || string.IsNullOrEmpty(estudiantes.Nombre))
-                        {
-                            throw new Exception("El nombre debe tener 3 letras minimo");
-                        }
-                        if (estudiantes.Promedio != 0)
-                        {
-                            throw new Exception("El promedio no debe ser cero");
-                        }
-                        if(estudiantes.Curso.IdCurso == null)
-                        {
-                            throw new Exception("Seleccione un curso");
-                        }
-                        GuardarEstudiantes(estudiantes);
+                        ValidarEstudiante(estudiante);
+                        GuardarEstudiantes(estudiante);
                     }
                     trx.Complete();
                 }

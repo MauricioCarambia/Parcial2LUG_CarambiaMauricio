@@ -116,7 +116,7 @@
             dtpFecha.Format = DateTimePickerFormat.Short;
             dtpFecha.Location = new Point(117, 66);
             dtpFecha.Name = "dtpFecha";
-            dtpFecha.Size = new Size(200, 29);
+            dtpFecha.Size = new Size(189, 29);
             dtpFecha.TabIndex = 1;
             // 
             // txtNombre
