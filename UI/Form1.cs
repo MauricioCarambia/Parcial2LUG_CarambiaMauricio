@@ -53,19 +53,36 @@ namespace UI
 
         private void MostrarEstudiantes()
         {
+            try
+            {
+                List<Estudiante> listaEstudiantes = estudiantesBusiness.ObtenerEstudiantes();
 
-            List<Estudiante> listaEstudiantes = estudiantesBusiness.ObtenerEstudiantes();
+                dgvEstudiantes.DataSource = null;
+                dgvEstudiantes.DataSource = listaEstudiantes;
+                dgvEstudiantes.Columns["Curso"].Visible = false;
+            }
+            catch (Exception ex)
+            {
 
-            dgvEstudiantes.DataSource = null;
-            dgvEstudiantes.DataSource = listaEstudiantes;
-            dgvEstudiantes.Columns["Curso"].Visible = false;
+                MessageBox.Show(ex.Message);
+            }
+          
 
         }
         private void MostrarCursos()
         {
-            List<Curso> listaCursos = cursoBusiness.ObtenerCursos();
-            dgvCursos.DataSource = null;
-            dgvCursos.DataSource = listaCursos;
+            try
+            {
+                List<Curso> listaCursos = cursoBusiness.ObtenerCursos();
+                dgvCursos.DataSource = null;
+                dgvCursos.DataSource = listaCursos;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+          
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -92,13 +109,22 @@ namespace UI
 
         private void ObtenerDatos()
         {
-            estudiante = new Estudiante();
-            estudiante.Nombre = txtNombre.Text;
-            estudiante.FechaNacimiento = dtpFecha.Value;
-            estudiante.Promedio = Convert.ToDecimal(txtPromedio.Text);
-            Curso curso = new Curso();
-            curso.IdCurso = Convert.ToInt32(cmbCurso.SelectedValue);
-            estudiante.Curso = curso;
+            try
+            {
+                estudiante = new Estudiante();
+                estudiante.Nombre = txtNombre.Text;
+                estudiante.FechaNacimiento = dtpFecha.Value;
+                estudiante.Promedio = Convert.ToDecimal(txtPromedio.Text);
+                Curso curso = new Curso();
+                curso.IdCurso = Convert.ToInt32(cmbCurso.SelectedValue);
+                estudiante.Curso = curso;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
