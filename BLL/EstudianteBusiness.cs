@@ -44,7 +44,7 @@ namespace BLL
             {
                 throw new Exception("El estudiante debe tener entre 16 y 60 años.");
             }
-            if (estudiante.Nombre.Length < 3 || string.IsNullOrEmpty(estudiante.Nombre))
+            if (string.IsNullOrEmpty(estudiante.Nombre) || estudiante.Nombre.Length < 3)
             {
                 throw new Exception("El nombre debe tener 3 letras minimo");
             }
@@ -91,12 +91,12 @@ namespace BLL
             }
         }
 
-        public void ModificarEstudiante(int id, string nombre, decimal promedio, Curso curso)
+        public void ModificarEstudiante(Estudiante estudiantes)
         {
             try
             {
-                Estudiante estudiante = estudianteDao.GetById(id);
-                Curso validarCurso = cursoDao.GetById(curso.IdCurso);
+                Estudiante estudiante = estudianteDao.GetById(estudiantes.IdEstudiante);
+                Curso validarCurso = cursoDao.GetById(estudiantes.Curso.IdCurso);
                 using (TransactionScope trx = new TransactionScope())
                 { 
                     
@@ -108,19 +108,16 @@ namespace BLL
                     {
                         throw new Exception("El curso seleccionado no existe");
                     }
-                    if (nombre.Length < 3)
+                    if (string.IsNullOrEmpty(estudiantes.Nombre) || estudiantes.Nombre.Length < 3)
                     {
                         throw new Exception("El nombre debe tener 3 letras minimo");
                     }
-                    if (promedio == 0)
+                    if (estudiantes.Promedio == 0)
                     {
                         throw new Exception("El promedio no puede ser cero");
                     }
-                    estudiante.Curso = new Curso();
-                    estudiante.Nombre = nombre;
-                    estudiante.Promedio = promedio;
-                    estudiante.Curso.IdCurso = curso.IdCurso;
-                    estudianteDao.ModificarEstudiante(estudiante);
+                    
+                    estudianteDao.ModificarEstudiante(estudiantes);
                     trx.Complete();
                 }
             }

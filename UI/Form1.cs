@@ -148,12 +148,14 @@ namespace UI
         {
             try
             {
-                int id = Convert.ToInt32(txtID.Text);
-                string nombre = txtNuevoNombre.Text;
-                decimal promedio = Convert.ToDecimal(txtNuevoPromedio.Text);
+                estudiantes = new Estudiante();
+                estudiantes.IdEstudiante = Convert.ToInt32(txtID.Text);
+                estudiantes.Nombre = txtNuevoNombre.Text;
+                estudiantes.Promedio = Convert.ToDecimal(txtNuevoPromedio.Text);
                 Curso curso = new Curso();
                 curso.IdCurso = Convert.ToInt32(cmbNuevoCurso.SelectedValue);
-                estudiantesBusiness.ModificarEstudiante(id, nombre, promedio, curso);
+                estudiantes.Curso = curso;
+                estudiantesBusiness.ModificarEstudiante(estudiantes);
                 MostrarEstudiantes();
                 MessageBox.Show("Estudiante modificado");
                 
