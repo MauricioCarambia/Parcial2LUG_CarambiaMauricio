@@ -156,11 +156,11 @@ namespace UI
             }
         }
 
-       
+
         private void LimpiarCampos()
         {
             txtNombre.Text = string.Empty;
-            txtPromedio.Text = string.Empty;
+            txtPromedio.Text = 0.ToString();
             dtpFecha.Value = DateTime.Now;
 
         }
@@ -179,6 +179,7 @@ namespace UI
                 MessageBox.Show("Estudiante agregado");
                 MostrarEstudiantes();
                 ObtenerCursosModificar();
+                LimpiarCampos();
             }
             catch (Exception ex)
             {
@@ -210,5 +211,7 @@ namespace UI
                 MessageBox.Show(ex.Message);
             }
         }
+
+      
     }
 }

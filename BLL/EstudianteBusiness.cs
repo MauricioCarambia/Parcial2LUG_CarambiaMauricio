@@ -30,7 +30,7 @@ namespace BLL
                     {
                         throw new Exception("El estudiante debe tener entre 16 y 60 años.");
                     }
-                    if (estudiante.Nombre.Length < 3)
+                    if (estudiante.Nombre.Length < 3 || string.IsNullOrEmpty(estudiante.Nombre))
                     {
                         throw new Exception("El nombre debe tener 3 letras minimo");
                     }
@@ -71,7 +71,7 @@ namespace BLL
                         {
                             throw new Exception("El estudiante debe tener entre 16 y 60 años.");
                         }
-                        if (estudiantes.Nombre.Length < 3)
+                        if (estudiantes.Nombre.Length < 3 || string.IsNullOrEmpty(estudiantes.Nombre))
                         {
                             throw new Exception("El nombre debe tener 3 letras minimo");
                         }
