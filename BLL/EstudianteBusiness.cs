@@ -21,12 +21,12 @@ namespace BLL
                 using (TransactionScope trx = new TransactionScope())
                 {
                     int edad = DateTime.Now.Year - estudiante.FechaNacimiento.Year;
-                    if (DateTime.Now.DayOfYear < estudiante.FechaNacimiento.DayOfYear)
+                    if (DateTime.Now < estudiante.FechaNacimiento.AddYears(edad))
                     {
                         edad--;
                     }
 
-                    if (edad <= 16 || edad >= 60)
+                    if (edad < 16 || edad > 60)
                     {
                         throw new Exception("El estudiante debe tener entre 16 y 60 años.");
                     }

@@ -66,7 +66,6 @@ namespace Dal
 			}
 			catch (Exception ex)
 			{
-
 				throw;
 			}
 		}

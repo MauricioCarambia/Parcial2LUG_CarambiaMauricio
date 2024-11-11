@@ -107,7 +107,7 @@
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(144, 53);
             btnAgregar.TabIndex = 4;
-            btnAgregar.Text = "Agregar";
+            btnAgregar.Text = "Agregar de uno";
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
             // 
@@ -190,7 +190,7 @@
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(147, 53);
             btnGuardar.TabIndex = 6;
-            btnGuardar.Text = "Confirmar";
+            btnGuardar.Text = "Confirmar Borrador";
             btnGuardar.UseVisualStyleBackColor = true;
             btnGuardar.Click += btnGuardar_Click;
             // 

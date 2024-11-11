@@ -9,5 +9,6 @@ namespace Entity
         public string Profesor { get; set; }
         public string Horario { get; set; }
 
+
     }
 }

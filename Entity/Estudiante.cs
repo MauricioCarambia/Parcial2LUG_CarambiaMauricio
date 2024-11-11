@@ -17,5 +17,6 @@ namespace Entity
         public decimal Promedio { get; set; }
         public string Cursos { get => Curso.NombreCurso; }
         public Curso Curso { get; set; }
+
     }
 }

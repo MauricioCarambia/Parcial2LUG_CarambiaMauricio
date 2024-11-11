@@ -155,8 +155,9 @@ namespace UI
                 Curso curso = new Curso();
                 curso.IdCurso = Convert.ToInt32(cmbNuevoCurso.SelectedValue);
                 estudiantesBusiness.ModificarEstudiante(id, nombre, promedio, curso);
-                MessageBox.Show("Estudiante modificado");
                 MostrarEstudiantes();
+                MessageBox.Show("Estudiante modificado");
+                
             }
             catch (Exception ex)
             {
