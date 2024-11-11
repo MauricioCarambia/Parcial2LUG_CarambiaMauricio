@@ -11,7 +11,7 @@ namespace Mapper
             {
                 IdEstudiante = Convert.ToInt32(reader["ID_ESTUDIANTE"].ToString()),
                 Nombre = reader["NOMBRE"].ToString(),
-                FechaNacimiento = Convert.ToDateTime(reader["FECHA_NACIMIENTO"].ToString()),
+                FechaNacimiento = Convert.ToDateTime(reader["FECHA_NACIMIENTO"]).Date,
                 Promedio = Convert.ToDecimal(reader["PROMEDIO_ACTUAL"].ToString()),
                 Curso = curso
             };

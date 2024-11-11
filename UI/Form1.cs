@@ -113,7 +113,7 @@ namespace UI
             {
                 estudiante = new Estudiante();
                 estudiante.Nombre = txtNombre.Text;
-                estudiante.FechaNacimiento = dtpFecha.Value;
+                estudiante.FechaNacimiento = dtpFecha.Value.Date;
                 estudiante.Promedio = Convert.ToDecimal(txtPromedio.Text);
                 Curso curso = new Curso();
                 curso.IdCurso = Convert.ToInt32(cmbCurso.SelectedValue);
