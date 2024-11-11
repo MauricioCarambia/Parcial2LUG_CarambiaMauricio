@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\bll\\estudiantebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\estudiantebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\bll\\estudiantebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\estudiantebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\mapper\\estudiantemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\estudiantemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\mapper\\cursomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\cursomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\estudiantedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\mapper\\estudiantemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C94E1CA7-C10F-4DDD-9DC1-FE717C7C57F8}|Mapper\\Mapper.csproj|solutionrelative:mapper\\estudiantemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\bll\\cursobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8D3730-F0DB-4C13-A440-3557BBC14530}|BLL\\BLL.csproj|solutionrelative:bll\\cursobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\entity\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\data\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB66445B-A143-4898-8279-9F1FA0B56BC4}|Data\\Dal.csproj|solutionrelative:data\\cursodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFC50D5-F75D-4643-89E2-50769C06D962}|UI\\UI.csproj|solutionrelative:ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|e:\\uai\\lug\\parcial2lug_carambiamauricio\\entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8550C818-3C9C-4E07-8680-5BA343B0150E}|Entity\\Entity.csproj|solutionrelative:entity\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
               "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
               "RelativeToolTip": "UI\\Form1.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAkwH4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T01:34:07.389Z",
               "IsPinned": true,
@@ -64,15 +72,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "UI\\Form1.Designer.cs",
-              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.Designer.cs",
-              "RelativeToolTip": "UI\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQBAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CursoMapper.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\CursoMapper.cs",
+              "RelativeDocumentMoniker": "Mapper\\CursoMapper.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\CursoMapper.cs",
+              "RelativeToolTip": "Mapper\\CursoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T01:52:39.57Z",
+              "WhenOpened": "2024-11-11T03:01:17.91Z",
               "EditorCaption": ""
             },
             {
@@ -85,7 +93,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "CursoBusiness.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\CursoBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\CursoBusiness.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\CursoBusiness.cs",
+              "RelativeToolTip": "BLL\\CursoBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:28:51.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.Designer.cs",
+              "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.Designer.cs",
+              "RelativeToolTip": "UI\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:52:39.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EstudianteMapper.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Mapper\\EstudianteMapper.cs",
               "RelativeDocumentMoniker": "Mapper\\EstudianteMapper.cs",
@@ -98,20 +131,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "CursoDao.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\CursoDao.cs",
               "RelativeDocumentMoniker": "Data\\CursoDao.cs",
               "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\CursoDao.cs",
               "RelativeToolTip": "Data\\CursoDao.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwEAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwD4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T00:29:37.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Curso.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Curso.cs",
               "RelativeDocumentMoniker": "Entity\\Curso.cs",
@@ -119,12 +152,11 @@
               "RelativeToolTip": "Entity\\Curso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T00:24:32.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T00:24:32.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Estudiante.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Entity\\Estudiante.cs",
               "RelativeDocumentMoniker": "Entity\\Estudiante.cs",
@@ -132,38 +164,37 @@
               "RelativeToolTip": "Entity\\Estudiante.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T23:55:37.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T23:55:37.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EstudianteDao.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\EstudianteDao.cs",
               "RelativeDocumentMoniker": "Data\\EstudianteDao.cs",
               "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\Data\\EstudianteDao.cs",
               "RelativeToolTip": "Data\\EstudianteDao.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwHEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwHAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T23:53:02.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EstudianteBusiness.cs",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\EstudianteBusiness.cs",
               "RelativeDocumentMoniker": "BLL\\EstudianteBusiness.cs",
               "ToolTip": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\BLL\\EstudianteBusiness.cs",
               "RelativeToolTip": "BLL\\EstudianteBusiness.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAlwGcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwE0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T23:53:01.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "E:\\UAI\\LUG\\Parcial2LUG_CarambiaMauricio\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",

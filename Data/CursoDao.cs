@@ -26,7 +26,7 @@ namespace Dal
                     using (cmd)
                     {
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = cmd.ExecuteReader())  
                         {
                             while (reader.Read())
                             {

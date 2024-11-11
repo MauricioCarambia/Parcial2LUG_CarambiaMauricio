@@ -57,11 +57,15 @@
             dgvEstudiantes = new DataGridView();
             groupBox4 = new GroupBox();
             btnSalir = new Button();
+            groupBox5 = new GroupBox();
+            dgvCursos = new DataGridView();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEstudiantes).BeginInit();
             groupBox4.SuspendLayout();
+            groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvCursos).BeginInit();
             SuspendLayout();
             // 
             // btnBorrador
@@ -201,9 +205,9 @@
             groupBox2.Controls.Add(label11);
             groupBox2.Controls.Add(btnModificar);
             groupBox2.Font = new Font("Segoe UI", 12F);
-            groupBox2.Location = new Point(12, 364);
+            groupBox2.Location = new Point(12, 362);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(471, 236);
+            groupBox2.Size = new Size(336, 246);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Modificar";
@@ -284,7 +288,7 @@
             // btnModificar
             // 
             btnModificar.Font = new Font("Segoe UI", 12F);
-            btnModificar.Location = new Point(318, 177);
+            btnModificar.Location = new Point(170, 184);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(147, 53);
             btnModificar.TabIndex = 12;
@@ -298,7 +302,7 @@
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(btnEliminar);
             groupBox3.Font = new Font("Segoe UI", 12F);
-            groupBox3.Location = new Point(489, 364);
+            groupBox3.Location = new Point(360, 362);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(252, 133);
             groupBox3.TabIndex = 3;
@@ -363,7 +367,7 @@
             // btnSalir
             // 
             btnSalir.Font = new Font("Segoe UI", 12F);
-            btnSalir.Location = new Point(576, 541);
+            btnSalir.Location = new Point(447, 546);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(147, 53);
             btnSalir.TabIndex = 13;
@@ -371,11 +375,37 @@
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += btnSalir_Click;
             // 
+            // groupBox5
+            // 
+            groupBox5.Controls.Add(dgvCursos);
+            groupBox5.Font = new Font("Segoe UI", 12F);
+            groupBox5.Location = new Point(622, 362);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(659, 246);
+            groupBox5.TabIndex = 14;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Cursos";
+            // 
+            // dgvCursos
+            // 
+            dgvCursos.AllowUserToAddRows = false;
+            dgvCursos.AllowUserToDeleteRows = false;
+            dgvCursos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvCursos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCursos.Location = new Point(6, 22);
+            dgvCursos.MultiSelect = false;
+            dgvCursos.Name = "dgvCursos";
+            dgvCursos.ReadOnly = true;
+            dgvCursos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvCursos.Size = new Size(647, 215);
+            dgvCursos.TabIndex = 0;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1300, 611);
+            Controls.Add(groupBox5);
             Controls.Add(btnSalir);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
@@ -393,6 +423,8 @@
             groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEstudiantes).EndInit();
             groupBox4.ResumeLayout(false);
+            groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgvCursos).EndInit();
             ResumeLayout(false);
         }
 
@@ -430,5 +462,7 @@
         private Button btnAgregar;
         private ComboBox cmbNuevoCurso;
         private Label label6;
+        private GroupBox groupBox5;
+        private DataGridView dgvCursos;
     }
 }

@@ -25,9 +25,6 @@ namespace UI
                 cmbCurso.ValueMember = "IdCurso";
                 cmbCurso.DisplayMember = "NombreCurso";
 
-                cmbNuevoCurso.DataSource = listaCursos;
-                cmbNuevoCurso.ValueMember = "IdCurso";
-                cmbNuevoCurso.DisplayMember = "NombreCurso";
             }
             catch (Exception ex)
             {
@@ -64,11 +61,19 @@ namespace UI
             dgvEstudiantes.Columns["Curso"].Visible = false;
 
         }
+        private void MostrarCursos()
+        {
+            List<Curso> listaCursos = cursoBusiness.ObtenerCursos();
+            dgvCursos.DataSource = null;
+            dgvCursos.DataSource = listaCursos;
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             ObtenerCursos();
+            MostrarCursos();
             MostrarEstudiantes();
             ObtenerCursosModificar();
+            txtPromedio.Text = 0.ToString();
         }
         private void btnBorrador_Click(object sender, EventArgs e)
         {
@@ -89,7 +94,7 @@ namespace UI
         {
             estudiante = new Estudiante();
             estudiante.Nombre = txtNombre.Text;
-            estudiante.FechaNacimiento = Convert.ToDateTime(dtpFecha.Value);
+            estudiante.FechaNacimiento = dtpFecha.Value;
             estudiante.Promedio = Convert.ToDecimal(txtPromedio.Text);
             Curso curso = new Curso();
             curso.IdCurso = Convert.ToInt32(cmbCurso.SelectedValue);
@@ -156,6 +161,7 @@ namespace UI
         {
             txtNombre.Text = string.Empty;
             txtPromedio.Text = string.Empty;
+            dtpFecha.Value = DateTime.Now;
 
         }
 
